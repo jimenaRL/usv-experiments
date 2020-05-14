@@ -17,5 +17,12 @@ COLORS = {
     'mother': {
         'E': '#FFFF00',  # yellow
         'U': '#FF8C00'  # orange
+    },
+    'year':{
+        17: "purple",
+        19: 'green'
     }
 }
+
+sns.palplot(POSTNATALDAYPALETTE)
+sns.palplot(NESTPALETTE)
